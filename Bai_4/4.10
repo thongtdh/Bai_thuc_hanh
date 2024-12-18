@@ -1,0 +1,12 @@
+def check divisible_by_5 (binary_numbers)
+   divisible numbers = []
+   for binary in binary numbers.split(','):
+      binary=binary.strip()
+   if len (binary) == 4 and all(bit in '01' for bit in binary):
+   decimal int (binary, 2)
+   if decimal % 5 == 0:
+      divisible numbers.append (binary)
+return'.join(divisible numbers)
+input binary input ("Nhập chuỗi các số nhị phân 4 chữ số (phần tách bằng dầu phẩy)")
+result=check divisible by 5 (input binary)
+print("Các số nhị phân chia hết cho 5 là:", result)
