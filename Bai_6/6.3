@@ -1,0 +1,13 @@
+import math
+class Circle:
+   def init (self, radius):
+      self.radius=radius
+   def area (self):
+      return math.pi self.radius ** 2
+   def circumference (self):
+      return 2 math.pi self.radius
+if__name__ == "main":
+   radius float(input("Nhập bán kinh của hình tròn: "))
+   circle=Circle (radius)
+   print (f"Diện tích của hình tròn: (circle.area():.2f}")
+   print (f"Chu vi của hình tròn: (circle.circumference():.2f}")
