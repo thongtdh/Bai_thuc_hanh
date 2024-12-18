@@ -1,0 +1,29 @@
+class RomanConverter:
+   def __init__(self):
+      self.roman dict = {
+         'I': 1,
+         'V': 5.
+         'X': 10,
+         'L': 50,
+         'C': 100,
+         'D': 500,
+         'M': 1000
+      }
+   def roman to int(self, roman):
+      """
+      Hàm chuyển đổi số La Mã thành số nguyên.
+      """
+      total 0
+      nlen (roman)
+      for i in range(n):
+         current value self.roman_dict [roman[1]]
+         11+1 <n and current_value < self.roman_dict [roman [i + 1]]:
+            total current value
+         else:
+            total += current_value
+      return total
+if__name__ == "main":
+   converter RomanConverter()
+   roman_number input ("Nhập số La Mã: ").upper()
+   integer value. converter.roman to int(roman number)
+   print (f"50 nguyên tương ứng với (roman_number) là: (integer_value)")
